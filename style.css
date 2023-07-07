@@ -232,15 +232,17 @@ header{
     margin-top: 3rem;
     border-radius: 0.5rem;
     border: var(--color-white) 0.1rem solid;
-    color: var(--color-white);
     box-shadow: 0 2px 12px 0 #000000;
     transition: var(--transition);
 }
 
 .about_contact_btn:hover {
-    color: var(--color-primary);
     border: var(--color-primary) 0.1rem solid;
     box-shadow: none;
+}
+
+.about_contact_btn a:hover{  
+    color: var(--color-primary-variant);
 }
 
 .about_contact a{
@@ -251,4 +253,40 @@ header{
     place-items: center;
 }
 
+.skills-container{
+    padding-top: 10rem;
+    height: 100vh;
+    margin-top: 10rem;
+    position: relative;
+    background: linear-gradient(256deg, var(--color-bg-1), var(--color-bg-3));
+}
 
+.hard{
+    display: grid;
+    grid-template-columns: 43% 53%;
+    gap: 4%;
+}
+
+.skills_left p{
+    font-size: 4rem;
+    text-align: end;
+}
+
+.skills_left p span{
+    color: var(--color-primary);
+}
+
+.skills_right{
+    margin-left: 3rem;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    width: 25rem;
+}
+
+.skills_right li{
+    margin-top: 5rem;
+}
+
+.skills_right i{
+    
+}
