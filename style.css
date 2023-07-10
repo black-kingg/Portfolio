@@ -209,7 +209,7 @@ header{
 }
 
 .about_left p{
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: end;
 }
 
@@ -219,7 +219,7 @@ header{
 
 .about_right{
     color: var(--color-white);
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 25rem;
 }
 
@@ -258,7 +258,7 @@ header{
     height: 100vh;
     margin-top: 10rem;
     position: relative;
-    background: linear-gradient(256deg, var(--color-bg-1), var(--color-bg-3));
+    background: linear-gradient(256deg, var(--color-bg-1), var(--color-bg-3)) no-repeat;
 }
 
 .hard{
@@ -268,7 +268,7 @@ header{
 }
 
 .skills_left p{
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: end;
 }
 
@@ -285,10 +285,35 @@ header{
 
 .skills_right li{
     margin-top: 5rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .skills_right i{
     color: var(--color-primary);
     padding: 2rem;
 }
+
+.soft{
+    margin-top: 4REM;
+    display: grid;
+    grid-template-columns: 43% 53%;
+    gap: 4%;
+}
+
+.soft_left p{
+    font-size: 4rem;
+    text-align: end;
+}
+
+.soft span{
+    color: var(--color-primary);
+}
+/*
+.soft_right{
+    display: inline-flex;
+}
+
+.soft_right li{
+    list-style: disc;
+}
+*/
