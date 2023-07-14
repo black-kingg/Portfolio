@@ -255,10 +255,8 @@ header{
 
 .skills-container{
     padding-top: 10rem;
-    height: 100vh;
     margin-top: 10rem;
     position: relative;
-    background: linear-gradient(256deg, var(--color-bg-1), var(--color-bg-3)) no-repeat;
 }
 
 .hard{
@@ -280,7 +278,6 @@ header{
     margin-left: 3rem;
     color: var(--color-white);
     font-size: 1.5rem;
-    width: 25rem;
 }
 
 .skills_right li{
@@ -300,13 +297,18 @@ header{
     gap: 4%;
 }
 
-.soft_left p{
+.soft p{
     font-size: 4rem;
     text-align: end;
 }
 
 .soft span{
     color: var(--color-primary);
+}
+
+.soft_right ul{
+    margin-top: 2rem;
+    border: 1rem solid #4f4f4f;
 }
 /*
 .soft_right{
