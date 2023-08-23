@@ -115,9 +115,9 @@ nav {
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0)
   );
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: 20px;
-  border-radius: 0.5rem;
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 0.5rem 0.5rem;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   transition: var(--transition);
 }
@@ -156,10 +156,9 @@ header {
   color: var(--color-primary);
 }
 
-#tag {
+.tag {
   font-size: 1rem;
-  line-height: 1rem;
-  animation: typing 2s;
+  animation-duration: 2s;
 }
 
 .header_right {
@@ -190,8 +189,6 @@ header {
       rgba(255, 255, 255, 0)
     )
     no-repeat;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: 20px;
   border-radius: 0.5rem;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   color: var(--color-bg-2);
@@ -201,8 +198,6 @@ header {
 
 .header_socials a:hover {
   color: var(--color-primary);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: 15px;
   box-shadow: none;
   transition: var(--transition);
 }
