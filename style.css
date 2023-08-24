@@ -399,11 +399,17 @@ header {
   align-items: center;
   justify-content: center;
   opacity: 0;
+  gap: 10px;
   transition: opacity 0.3s ease;
 }
 
 .gallery-item .overlay i {
+  cursor: pointer;
+}
+
+.gallery-item .overlay i:hover {
   color: var(--color-primary);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
