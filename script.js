@@ -11,23 +11,11 @@ gsap.fromTo(
   { x: 2, repeat: -1, yoyo: true, ease: "power1.out" }
 );
 
-// portfolio
-$(".gallery ul li a").click(function () {
-  var itemID = $(this).attr("href");
-  $(".gallery ul").addClass("item_open");
-  $(itemID).addClass("item_open");
-  return false;
-});
-$(".close").click(function () {
-  $(".port, .gallery ul").removeClass("item_open");
-  return false;
-});
+const navLinks = document.querySelectorAll(".nav_links a");
 
-$(".gallery ul li a").click(function () {
-  $("html, body").animate(
-    {
-      scrollTop: parseInt($("#top").offset().top),
-    },
-    400
-  );
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    const navToggle = document.getElementById("nav-toggle");
+    navToggle.checked = false;
+  });
 });
