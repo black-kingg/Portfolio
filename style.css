@@ -524,7 +524,7 @@ footer {
   /**/
   .header_socials {
     margin-left: -3.5rem;
-    margin-top: -7rem;
+    margin-top: -80px;
     display: flex;
     gap: 1rem;
   }
