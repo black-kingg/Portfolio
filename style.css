@@ -510,7 +510,7 @@ footer {
   .header_left {
     margin-top: 5rem;
     margin-left: 2rem;
-    width: 80%;
+    width: 50vw;
   }
 
   .header_left p {
@@ -524,7 +524,7 @@ footer {
   /**/
   .header_socials {
     margin-left: -3.5rem;
-    margin-top: -80px;
+    margin-top: -60px;
     display: flex;
     gap: 1rem;
   }
@@ -601,26 +601,7 @@ footer {
 
   .skills_right li {
     margin-left: -30px;
-    font-size: 30px;
-  }
-
-  .soft {
-    margin-top: 3rem;
-    margin-left: 0;
-  }
-
-  .soft p {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .soft_skills {
-    justify-content: center;
-  }
-
-  .soft_skills li {
-    font-size: 0.8rem;
-    padding: 0.2rem 0.5rem;
+    font-size: 25px;
   }
 
   .projects-container {
