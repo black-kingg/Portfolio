@@ -11,11 +11,13 @@ gsap.fromTo(
   { x: 2, repeat: -1, yoyo: true, ease: "power1.out" }
 );
 
-const navLinks = document.querySelectorAll(".nav_links a");
+const hamburger = document.getElementById("hamburger");
+const navContent = document.getElementById("navContent");
 
-navLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    const navToggle = document.getElementById("nav-toggle");
-    navToggle.checked = false;
-  });
+hamburger.addEventListener("click", function () {
+  if (navContent.style.display === "none") {
+    navContent.style.display = "block";
+  } else {
+    navContent.style.display = "none";
+  }
 });
